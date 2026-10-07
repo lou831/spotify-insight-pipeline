@@ -16,3 +16,4 @@ outputs/runs/full/checkpoint_*.json
 # duplicates of grading/ files
 outputs/runs/full/calls.jsonl
 outputs/runs/full/membership.csv
+outputs/rerank_from_grading/

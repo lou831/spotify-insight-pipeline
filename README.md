@@ -142,7 +142,7 @@ cp .env.example .env    # only needed for paid runs; fill TYPESAFE_API_KEY
 **No API key needed (grader path):**
 ```bash
 .venv/bin/python cost/calculator.py                         # offline cost replay -> cost/report.md
-.venv/bin/python pipeline/rank.py --run full                # regenerate ranking from saved records + membership
+.venv/bin/python pipeline/rank.py --from-grading            # regenerate ranking from grading/ records + membership (0 model calls)
 .venv/bin/python pipeline/memo.py --run full --check memo.md  # re-check every memo number/ID
 .venv/bin/python check_submission.py profile --full spotify_reviews_18months.csv --out grading/ingestion.json
 .venv/bin/python check_submission.py reference --full spotify_reviews_18months.csv --analysis spotify_reviews_18months.csv --out local-reference.json
