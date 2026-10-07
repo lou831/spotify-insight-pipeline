@@ -1,0 +1,47 @@
+{
+  "measured_on": "dev500",
+  "model": "claude-haiku-4-5",
+  "calls": 16,
+  "distinct_texts_labeled": 479,
+  "records_completed": 499,
+  "measured_input_tokens": 51083,
+  "measured_output_tokens": 32586,
+  "measured_api_equivalent_usd": 0.214,
+  "per_distinct_text": {
+    "input_tokens": 106.645,
+    "output_tokens": 68.029,
+    "seconds": 0.523,
+    "retry_overhead": 0.042
+  },
+  "projections": {
+    "analysis_10000": {
+      "includes": "enrich 8448 distinct texts + retries (measured) + verify 1000 + ~30 group/memo calls",
+      "distinct_texts": 8448,
+      "model_calls": 219,
+      "input_tokens": 1097582,
+      "output_tokens": 672740,
+      "api_cost_usd_standard": 4.46,
+      "api_cost_usd_batch": 2.23,
+      "pro_plan_cost_usd": 0.0,
+      "spending_limit_usd": 0.0,
+      "sequential_hours": 1.4
+    },
+    "full_660622": {
+      "includes": "enrich 484189 distinct texts + retries (measured) + verify 2000 + ~30 group/memo calls",
+      "distinct_texts": 484189,
+      "model_calls": 9754,
+      "input_tokens": 51939671,
+      "output_tokens": 33105062,
+      "api_cost_usd_standard": 217.46,
+      "api_cost_usd_batch": 108.73,
+      "pro_plan_cost_usd": 0.0,
+      "spending_limit_usd": 0.0,
+      "sequential_hours": 70.7
+    }
+  },
+  "notes": [
+    "Pro plan: no per-token charge, but usage limits per 5-hour window cap throughput.",
+    "Verification, grouping and memo stages are extra (verify a ~1-2k sample, not everything).",
+    "API-equivalent prices: Haiku 4.5 list $1/$5 per MTok; Batch API halves them."
+  ]
+}

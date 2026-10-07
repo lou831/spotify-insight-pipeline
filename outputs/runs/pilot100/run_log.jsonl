@@ -1,0 +1,24 @@
+{"stage": "prepare", "event": "start", "at": "2026-10-07T04:42:17+00:00"}
+{"stage": "prepare", "event": "stop", "exit_code": 0, "wall_s": 0.08, "at": "2026-10-07T04:42:17+00:00"}
+{"stage": "classify", "event": "start", "at": "2026-10-07T04:42:17+00:00"}
+{"stage": "classify", "event": "stop", "exit_code": 0, "wall_s": 1.07, "at": "2026-10-07T04:42:18+00:00"}
+{"stage": "verify", "event": "start", "at": "2026-10-07T04:42:18+00:00"}
+{"stage": "verify", "event": "stop", "exit_code": 0, "wall_s": 8.32, "at": "2026-10-07T04:42:27+00:00"}
+{"stage": "group", "event": "start", "at": "2026-10-07T04:42:27+00:00"}
+{"stage": "group", "event": "stop", "exit_code": 0, "wall_s": 10.63, "at": "2026-10-07T04:42:37+00:00"}
+{"stage": "rank", "event": "start", "at": "2026-10-07T04:42:37+00:00"}
+{"stage": "rank", "event": "stop", "exit_code": 0, "wall_s": 0.09, "at": "2026-10-07T04:42:37+00:00"}
+{"stage": "memo", "event": "start", "at": "2026-10-07T04:42:37+00:00"}
+{"stage": "memo", "event": "stop", "exit_code": 0, "wall_s": 14.58, "at": "2026-10-07T04:42:52+00:00"}
+{"stage": "prepare", "event": "start", "at": "2026-10-07T04:42:52+00:00"}
+{"stage": "prepare", "event": "stop", "exit_code": 0, "wall_s": 0.09, "at": "2026-10-07T04:42:52+00:00"}
+{"stage": "classify", "event": "start", "at": "2026-10-07T04:42:52+00:00"}
+{"stage": "classify", "event": "stop", "exit_code": 0, "wall_s": 0.41, "at": "2026-10-07T04:42:53+00:00"}
+{"stage": "verify", "event": "start", "at": "2026-10-07T04:42:53+00:00"}
+{"stage": "verify", "event": "stop", "exit_code": 0, "wall_s": 0.09, "at": "2026-10-07T04:42:53+00:00"}
+{"stage": "group", "event": "start", "at": "2026-10-07T04:42:53+00:00"}
+{"stage": "group", "event": "stop", "exit_code": 0, "wall_s": 0.1, "at": "2026-10-07T04:42:53+00:00"}
+{"stage": "rank", "event": "start", "at": "2026-10-07T04:42:53+00:00"}
+{"stage": "rank", "event": "stop", "exit_code": 0, "wall_s": 0.08, "at": "2026-10-07T04:42:53+00:00"}
+{"stage": "memo", "event": "start", "at": "2026-10-07T04:42:53+00:00"}
+{"stage": "memo", "event": "stop", "exit_code": 0, "wall_s": 0.1, "at": "2026-10-07T04:42:53+00:00"}

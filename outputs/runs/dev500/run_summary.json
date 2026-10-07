@@ -1,0 +1,13 @@
+{
+  "run": "dev500",
+  "input": "checkpoint_500.csv",
+  "label_config": "claude-haiku-4-5+enrich_v1+s1+nothink",
+  "rows": 500,
+  "completed": 499,
+  "quarantined": 1,
+  "pending": 0,
+  "cache_reused_this_session": 9,
+  "total_spent_usd": 0.0,
+  "elapsed_s_this_session": 178.1,
+  "finished_at": "2026-10-04T01:47:37+00:00"
+}

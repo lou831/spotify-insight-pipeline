@@ -1,0 +1,6 @@
+provider,model,billing_item,unit,price_usd_per_million_units,billing_mode,source_url,checked_date,notes
+typesafe,jev-1.13.0,input_tokens,token,0.042,metered_api,https://docs.typesafe.ai/models,2026-10-06,"$42 per billion input tokens"
+typesafe,jev-1.13.0,output_tokens,token,0,metered_api,https://docs.typesafe.ai/models,2026-10-06,"output tokens are free"
+anthropic,claude-haiku-4-5,input_tokens,token,1.00,subscription,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-06,"called via Claude Code on a Claude Pro plan: no metered charge observed; API-equivalent shown separately"
+anthropic,claude-haiku-4-5,output_tokens,token,5.00,subscription,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-06,"same as above"
+local,laptop,compute_seconds,second,,local_compute,,2026-10-06,"code stages run on a personal laptop; electricity/hardware cost not measured (unknown)"

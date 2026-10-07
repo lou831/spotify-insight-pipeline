@@ -1,0 +1,45 @@
+[
+  {
+    "run_id": "pilot_cold_20261007T032940Z",
+    "phase": "cold",
+    "exit_code": 0,
+    "wall_s": 51.81,
+    "stage_wall_s": {
+      "prepare": 0.09,
+      "classify": 0.91,
+      "verify": 6.3,
+      "group": 10.94,
+      "rank": 0.12,
+      "memo": 33.34
+    },
+    "workers": 1,
+    "batch_size": 50,
+    "verify_sample": 10,
+    "jev_spend_cap_usd": 0.05,
+    "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+    "new_calls_by_role": {
+      "enrich": 2,
+      "verify": 1,
+      "group": 1,
+      "memo": 2
+    },
+    "finished_at": "2026-10-07T03:30:32+00:00"
+  },
+  {
+    "run_id": "pilot_warm_20261007T033032Z",
+    "phase": "warm",
+    "exit_code": 1,
+    "wall_s": 0.34,
+    "stage_wall_s": {
+      "prepare": 0.09,
+      "classify": 0.14
+    },
+    "workers": 1,
+    "batch_size": 50,
+    "verify_sample": 10,
+    "jev_spend_cap_usd": 0.05,
+    "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+    "new_calls_by_role": {},
+    "finished_at": "2026-10-07T03:30:32+00:00"
+  }
+]

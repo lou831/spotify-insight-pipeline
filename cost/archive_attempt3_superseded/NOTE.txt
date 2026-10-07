@@ -1,0 +1,1 @@
+Third pilot: valid cold/warm run (warm = 0 enrichment calls), superseded because group/memo code changed afterwards (representative evidence, cache keys, quarantine count). Final pilot rerun on final code.

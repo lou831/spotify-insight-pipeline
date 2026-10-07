@@ -1,0 +1,20 @@
+{
+  "_note": "Editable projection inputs. Measured pilot results are never changed by these values.",
+  "budget_usd": 10.0,
+  "full_rows": 660622,
+  "full_nonempty": 660609,
+  "full_distinct_nonempty": 484189,
+  "sample_10k_rows": 10000,
+  "sample_10k_distinct": 8448,
+  "enrich_workers": 8,
+  "parallel_efficiency_base": 0.8,
+  "parallel_efficiency_conservative": 0.4,
+  "jev_requests_per_second_limit": 80,
+  "verify_sample": {"analysis_10000": 1000, "full_660622": 2000},
+  "retry_rate_conservative_min": 0.05,
+  "token_inflation_conservative": 1.25,
+  "max_fallback_fraction": 0.0,
+  "fallback_note": "No stronger-model fallback: reviews that fail validation twice are quarantined, not escalated.",
+  "fixed_calls": {"group": 1, "memo": 2},
+  "prepare_seconds_full_measured": 9.67
+}

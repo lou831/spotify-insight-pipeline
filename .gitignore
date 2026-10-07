@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.old
+*.mov
+spotify_reviews_18months.csv
+local-reference.json
+self-check.json
+# full enriched table is published as grading/records.jsonl.gz; run-folder copies are too large for GitHub
+outputs/runs/full/records.jsonl
+outputs/runs/full/checkpoint_*.json
+.DS_Store
+*.docx
+# duplicates of grading/ files
+outputs/runs/full/calls.jsonl
+outputs/runs/full/membership.csv

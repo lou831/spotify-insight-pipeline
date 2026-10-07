@@ -1,0 +1,343 @@
+{
+  "source_rows": 660622,
+  "quarantine_reason": "empty_review_text (no text to classify)",
+  "data_window": "app-store reviews dated 2022-05-17 to 2023-11-15 (historical snapshot, not current Spotify state)",
+  "scope": {
+    "records_completed": 660609,
+    "records_quarantined": 13,
+    "issues_total": 35
+  },
+  "topic_totals_note": "sum over all issues in each topic; not claim-checked by the grader",
+  "topic_totals": {
+    "usability": {
+      "complaints": 79792,
+      "severity_sum": 205214,
+      "mean_severity": 2.57
+    },
+    "other": {
+      "complaints": 93250,
+      "severity_sum": 186704,
+      "mean_severity": 2.0
+    },
+    "billing": {
+      "complaints": 49795,
+      "severity_sum": 139883,
+      "mean_severity": 2.81
+    },
+    "playback": {
+      "complaints": 34036,
+      "severity_sum": 123068,
+      "mean_severity": 3.62
+    },
+    "access": {
+      "complaints": 9893,
+      "severity_sum": 39095,
+      "mean_severity": 3.95
+    },
+    "catalog": {
+      "complaints": 12870,
+      "severity_sum": 36704,
+      "mean_severity": 2.85
+    },
+    "downloads": {
+      "complaints": 5697,
+      "severity_sum": 19337,
+      "mean_severity": 3.39
+    },
+    "support": {
+      "complaints": 759,
+      "severity_sum": 2225,
+      "mean_severity": 2.93
+    }
+  },
+  "top_issues": [
+    {
+      "rank": 1,
+      "issue_id": "other.general_dissatisfaction",
+      "name": "General app dissatisfaction",
+      "summary": "Users express broad unhappiness with the app without specific complaint details.",
+      "complaint_count": {
+        "value": "76926",
+        "claim_id": "C001"
+      },
+      "severity_sum": {
+        "value": "153598",
+        "claim_id": "C002"
+      },
+      "mean_severity": {
+        "value": "1.996698",
+        "claim_id": "C003"
+      },
+      "priority_score": {
+        "value": "153598",
+        "claim_id": "C004"
+      },
+      "evidence": [
+        {
+          "review_id": "3c088ba4-eb89-4885-b4db-af41b211e3f0",
+          "quote": "Worst music app ever..."
+        },
+        {
+          "review_id": "3c9ccbb9-f4fe-4c57-845d-46386de8549d",
+          "quote": "This is a very bad behaviour spotify"
+        },
+        {
+          "review_id": "6f15f703-7dd3-4030-8dc8-9be11f467a98",
+          "quote": "The worst app i have ever used"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "issue_id": "usability.too_many_ads",
+      "name": "Excessive ad frequency",
+      "summary": "Free users experience high frequency of ads that interrupt listening and frustrate their experience.",
+      "complaint_count": {
+        "value": "35508",
+        "claim_id": "C005"
+      },
+      "severity_sum": {
+        "value": "79637",
+        "claim_id": "C006"
+      },
+      "mean_severity": {
+        "value": "2.242790",
+        "claim_id": "C007"
+      },
+      "priority_score": {
+        "value": "79637",
+        "claim_id": "C008"
+      },
+      "evidence": [
+        {
+          "review_id": "39a07f00-4350-46a8-b47e-c7799602fbaa",
+          "quote": "I got 6, 30 second ads in a row."
+        },
+        {
+          "review_id": "c7a4cbb7-344b-4ce1-a697-eacb38640616",
+          "quote": "I HATE ADS SPOTIFY GRRR 😭😭😭😭"
+        },
+        {
+          "review_id": "3f1c8cc2-e4dc-472e-9302-0c3e04c39e5b",
+          "quote": "With my Pixel 4a, my Spotify experience has dramatically improved Edit: The ad frequency has become obnoxious."
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "issue_id": "billing.subscription_plan_issues",
+      "name": "Premium paywall restrictions",
+      "summary": "Users feel forced to purchase premium as free features are increasingly moved behind paywalls.",
+      "complaint_count": {
+        "value": "22445",
+        "claim_id": "C009"
+      },
+      "severity_sum": {
+        "value": "63243",
+        "claim_id": "C010"
+      },
+      "mean_severity": {
+        "value": "2.817688",
+        "claim_id": "C011"
+      },
+      "priority_score": {
+        "value": "63243",
+        "claim_id": "C012"
+      },
+      "evidence": [
+        {
+          "review_id": "3dd40007-b7ab-45ec-a658-0b6444151ad8",
+          "quote": "Stop including every feature into Premium!"
+        },
+        {
+          "review_id": "0d711c9b-6617-4028-831b-4c85ac3c9365",
+          "quote": "Forcibly buying premium plan."
+        },
+        {
+          "review_id": "163a9928-8067-4b58-af03-da7b6b39cfad",
+          "quote": "i have premium but they've really ruined the app for free users.."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "issue_id": "playback.general",
+      "name": "Playback issues overall",
+      "summary": "Users report problems with songs and podcasts not playing, failing to load, or not responding to user controls.",
+      "complaint_count": {
+        "value": "14990",
+        "claim_id": "C013"
+      },
+      "severity_sum": {
+        "value": "53505",
+        "claim_id": "C014"
+      },
+      "mean_severity": {
+        "value": "3.569380",
+        "claim_id": "C015"
+      },
+      "priority_score": {
+        "value": "53505",
+        "claim_id": "C016"
+      },
+      "evidence": [
+        {
+          "review_id": "1ea67a58-8d73-49d5-8eb9-2eee8983cb7f",
+          "quote": "Best music app I have used."
+        },
+        {
+          "review_id": "2a84e84a-f207-468b-8d54-7833a88d29ef",
+          "quote": "Not able to listen to my own playlist."
+        },
+        {
+          "review_id": "d089fecd-418a-4da3-bc47-af5c11645473",
+          "quote": "Podcasts will stay at 0 and not load"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "issue_id": "usability.general",
+      "name": "General usability problems",
+      "summary": "Diverse usability issues including removed features, app persistence, and inefficient behaviors.",
+      "complaint_count": {
+        "value": "15121",
+        "claim_id": "C017"
+      },
+      "severity_sum": {
+        "value": "41228",
+        "claim_id": "C018"
+      },
+      "mean_severity": {
+        "value": "2.726539",
+        "claim_id": "C019"
+      },
+      "priority_score": {
+        "value": "41228",
+        "claim_id": "C020"
+      },
+      "evidence": [
+        {
+          "review_id": "10929c1b-8d62-436a-acd8-e464b7e44ce2",
+          "quote": "Why on earth would you remove THE LIKE BUTTON??"
+        },
+        {
+          "review_id": "f91cc976-b129-45c3-8877-175c85cc31c7",
+          "quote": "I have tey this app three times."
+        },
+        {
+          "review_id": "59f8767b-5e18-4fd4-ba75-56c71b630316",
+          "quote": "My phone came with it install every time I go to uninstall it it is still there it wasting my space."
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "issue_id": "other.bad_update_general",
+      "name": "App degraded by updates",
+      "summary": "Recent app updates have worsened functionality and overall user experience.",
+      "complaint_count": {
+        "value": "16324",
+        "claim_id": "C021"
+      },
+      "severity_sum": {
+        "value": "33106",
+        "claim_id": "C022"
+      },
+      "mean_severity": {
+        "value": "2.028057",
+        "claim_id": "C023"
+      },
+      "priority_score": {
+        "value": "33106",
+        "claim_id": "C024"
+      },
+      "evidence": [
+        {
+          "review_id": "b1fde085-9f51-42de-9431-d56b20663636",
+          "quote": "Very bad response after updat"
+        },
+        {
+          "review_id": "75ce1813-cb7a-46f9-a1ab-9fe601da4943",
+          "quote": "New Updates Are Ruined the interest on this App"
+        },
+        {
+          "review_id": "b06de873-bfed-4d71-a874-2a727a6d6698",
+          "quote": "I was since using for 3 year it was just fantastic but srry Spotify today ur update make worse to this app"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "issue_id": "billing.premium_locked_controls",
+      "name": "Playback controls locked behind premium",
+      "summary": "Basic playback controls like skip, repeat, and song selection require premium subscription.",
+      "complaint_count": {
+        "value": "11036",
+        "claim_id": "C025"
+      },
+      "severity_sum": {
+        "value": "33038",
+        "claim_id": "C026"
+      },
+      "mean_severity": {
+        "value": "2.993657",
+        "claim_id": "C027"
+      },
+      "priority_score": {
+        "value": "33038",
+        "claim_id": "C028"
+      },
+      "evidence": [
+        {
+          "review_id": "05ecab99-c305-49af-b78f-2629070860e0",
+          "quote": "Won't even let you skip one song anymore."
+        },
+        {
+          "review_id": "12054c7a-ea3e-4bd1-8e29-b54eabf89751",
+          "quote": "They prevent you from going back to the previous song, looping a song, and even limit the number of songs you can listen to each day in the free version."
+        },
+        {
+          "review_id": "65b8ae62-ed18-4c88-ac42-2a26b3fdd95d",
+          "quote": "activate premium plan even to forward a songs or play in an order."
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "issue_id": "playback.playback_stops",
+      "name": "Playback interruptions and stops",
+      "summary": "Music stops unexpectedly during playback or after a few seconds without user control.",
+      "complaint_count": {
+        "value": "7587",
+        "claim_id": "C029"
+      },
+      "severity_sum": {
+        "value": "27732",
+        "claim_id": "C030"
+      },
+      "mean_severity": {
+        "value": "3.655200",
+        "claim_id": "C031"
+      },
+      "priority_score": {
+        "value": "27732",
+        "claim_id": "C032"
+      },
+      "evidence": [
+        {
+          "review_id": "00ef7aa1-39aa-450e-9643-c47be81fb6ee",
+          "quote": "The recent update is making the songs pause every 10 seconds"
+        },
+        {
+          "review_id": "a8ab6487-1152-4253-89f4-b2af0956b83d",
+          "quote": "App won't force stop"
+        },
+        {
+          "review_id": "78339d90-fda3-44cf-9a93-e9bb6b18c335",
+          "quote": "Always sudden stop when the song playing, does not worth the price that i paid to get premium"
+        }
+      ]
+    }
+  ]
+}

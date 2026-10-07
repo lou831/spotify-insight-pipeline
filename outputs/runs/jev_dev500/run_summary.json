@@ -1,0 +1,16 @@
+{
+  "run": "jev_dev500",
+  "input": "checkpoint_500.csv",
+  "label_config": "jev-1.13.0+jev_v3+s1",
+  "rows": 500,
+  "completed": 500,
+  "quarantined": 0,
+  "pending": 0,
+  "cache_reused_this_session": 21,
+  "total_spent_usd": 0.005606,
+  "spend_cap_usd": 0.05,
+  "workers": 2,
+  "elapsed_s_this_session": 1.2,
+  "stopped_early": false,
+  "finished_at": "2026-10-07T03:33:32+00:00"
+}

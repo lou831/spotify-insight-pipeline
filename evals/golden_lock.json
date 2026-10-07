@@ -1,0 +1,7 @@
+{
+  "locked_at": "2026-10-03",
+  "statement": "Human labels finalized before any model run on the golden set. Labels are never sent to the model.",
+  "golden_50_labeled.csv_sha256": "85a214903cfaba863b65030e3ac8820e43270f6e0355d18f37510e22bfa52da8",
+  "golden_50_labeling.xlsx_sha256": "8a048253901108ff9769bf7afba2584fce7f895fdf1b0cb302c0607b86e6ed4d",
+  "model_runs_on_golden_before_lock": 0
+}

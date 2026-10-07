@@ -1,0 +1,153 @@
+{
+  "run": "jev_golden50",
+  "cases": 50,
+  "missing_or_quarantined": 0,
+  "topic_agreement": 0.68,
+  "intent_agreement": 0.82,
+  "severity_exact": 0.7,
+  "severity_mae": 0.4,
+  "sentiment_mae": 0.311,
+  "sentiment_within_0.3": 0.58,
+  "needs_review_agreement": 0.92,
+  "gold_marked_ambiguous": 6,
+  "confusion_topic": {
+    "rows=gold, cols=pred": [
+      "access",
+      "billing",
+      "catalog",
+      "downloads",
+      "other",
+      "playback",
+      "support",
+      "usability"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        4,
+        0,
+        25,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        3
+      ]
+    ]
+  },
+  "confusion_intent": {
+    "rows=gold, cols=pred": [
+      "cancellation",
+      "complaint",
+      "praise",
+      "request",
+      "unclear"
+    ],
+    "matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        18,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        20,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        2
+      ]
+    ]
+  }
+}

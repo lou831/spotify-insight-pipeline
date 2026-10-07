@@ -1,0 +1,16 @@
+{
+  "run": "pilot100",
+  "input": "/Users/lchan/Downloads/Final Assignment - Spotify Reviews Dataset/cost_100.csv",
+  "label_config": "jev-1.13.0+jev_v3+s1",
+  "rows": 100,
+  "completed": 100,
+  "quarantined": 0,
+  "pending": 0,
+  "cache_reused_this_session": 0,
+  "total_spent_usd": 0.001168,
+  "spend_cap_usd": 0.05,
+  "workers": 1,
+  "elapsed_s_this_session": 0.0,
+  "stopped_early": false,
+  "finished_at": "2026-10-07T04:42:53+00:00"
+}

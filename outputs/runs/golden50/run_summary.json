@@ -1,0 +1,13 @@
+{
+  "run": "golden50",
+  "input": "golden_50_to_label.csv",
+  "label_config": "claude-haiku-4-5+enrich_v1+s1+nothink",
+  "rows": 50,
+  "completed": 49,
+  "quarantined": 1,
+  "pending": 0,
+  "cache_reused_this_session": 1,
+  "total_spent_usd": 0.0,
+  "elapsed_s_this_session": 29.1,
+  "finished_at": "2026-10-04T01:43:18+00:00"
+}

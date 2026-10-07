@@ -1,0 +1,34 @@
+{
+  "purpose": "choose Jev question wording by cost on DEVELOPMENT reviews only (checkpoint_500 rows 101-200); golden set not used for this choice",
+  "reference": "agreement with Haiku dev500 labels (not human labels)",
+  "results": [
+    {
+      "prompt": "jev_v1",
+      "input_tokens_per_review": 370.6,
+      "measured_usd": 0.001541,
+      "projected_full_usd": 7.54,
+      "topic_agreement": 0.879,
+      "intent_agreement": 0.939,
+      "severity_agreement": 0.909
+    },
+    {
+      "prompt": "jev_v2",
+      "input_tokens_per_review": 299.4,
+      "measured_usd": 0.001245,
+      "projected_full_usd": 6.09,
+      "topic_agreement": 0.879,
+      "intent_agreement": 0.919,
+      "severity_agreement": 0.899
+    },
+    {
+      "prompt": "jev_v3",
+      "input_tokens_per_review": 275.2,
+      "measured_usd": 0.001144,
+      "projected_full_usd": 5.6,
+      "topic_agreement": 0.859,
+      "intent_agreement": 0.929,
+      "severity_agreement": 0.909
+    }
+  ],
+  "decision": "jev_v3: cheapest; differences within noise; deterministic evidence quote endorsed by COST_CALCULATOR.md"
+}

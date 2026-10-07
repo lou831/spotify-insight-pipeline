@@ -1,0 +1,1 @@
+First pilot attempt: cold run succeeded; warm run crashed in classify (bug: summed None cost of subscription calls). Fixed in enrich_jev.py, pilot rerun from scratch.

@@ -1,0 +1,121 @@
+{
+  "file_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+  "input_path": "/Users/lchan/Downloads/Final Assignment - Spotify Reviews Dataset/cost_100.csv",
+  "profile": {
+    "counts": {
+      "duplicate_review_ids": 0,
+      "empty_review_text": 0,
+      "missing_app_version": 18,
+      "records": 100
+    },
+    "file_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+    "first_review": "2022-06-02 10:30:18",
+    "last_review": "2023-11-13 15:07:19",
+    "parsed_rows_sha256": "23f840350257c058a03a508754384902373a593c09dbac3d1bd0481651fa1733",
+    "reviews_by_month": {
+      "2022-06": 5,
+      "2022-07": 5,
+      "2022-08": 6,
+      "2022-09": 5,
+      "2022-10": 4,
+      "2022-11": 1,
+      "2022-12": 2,
+      "2023-01": 4,
+      "2023-02": 4,
+      "2023-03": 7,
+      "2023-04": 4,
+      "2023-05": 5,
+      "2023-06": 4,
+      "2023-07": 11,
+      "2023-08": 3,
+      "2023-09": 6,
+      "2023-10": 19,
+      "2023-11": 5
+    },
+    "reviews_by_rating": {
+      "1": 33,
+      "2": 8,
+      "3": 6,
+      "4": 10,
+      "5": 43
+    }
+  },
+  "text": {
+    "distinct_nonempty_texts": 100,
+    "empty_review_ids": [],
+    "exact_duplicate_rows_reusable": 0,
+    "most_common_texts": [
+      [
+        "Thik thak hi hai",
+        1
+      ],
+      [
+        "Good at all",
+        1
+      ],
+      [
+        "Great",
+        1
+      ],
+      [
+        "You can't even listen to music you want it just shuffles it, like what the hell? This app is killing it self and forcing you to pay premium for basic things like just listening to music.",
+        1
+      ],
+      [
+        "This was fine till the last update, now you can't even pick a certain song without Spotify premium, and now you can only skip 6 songs, like please just let the songs fit my mood!",
+        1
+      ],
+      [
+        "Love it",
+        1
+      ],
+      [
+        "Fantastic experience",
+        1
+      ],
+      [
+        "Awesome app and music",
+        1
+      ],
+      [
+        "Best for listening songs",
+        1
+      ],
+      [
+        "Kudos spotify",
+        1
+      ],
+      [
+        "Great music",
+        1
+      ],
+      [
+        "Why it requires premium just to play next music / to choose music ?? And why the specific part of song cannot be played ?",
+        1
+      ],
+      [
+        "Excellent!",
+        1
+      ],
+      [
+        "Good aap",
+        1
+      ],
+      [
+        "Top music app and i can see why.",
+        1
+      ]
+    ],
+    "nonempty_texts": 100,
+    "text_length_chars": {
+      "max": 486,
+      "mean": 80.42,
+      "median": 46,
+      "min": 4,
+      "p10": 9,
+      "p90": 186,
+      "p99": 486
+    },
+    "total_chars_distinct": 8042
+  }
+}

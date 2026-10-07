@@ -1,0 +1,16 @@
+{
+  "run": "jev_golden50",
+  "input": "golden_50_to_label.csv",
+  "label_config": "jev-1.13.0+jev_v3+s1",
+  "rows": 50,
+  "completed": 50,
+  "quarantined": 0,
+  "pending": 0,
+  "cache_reused_this_session": 1,
+  "total_spent_usd": 0.000569,
+  "spend_cap_usd": 0.02,
+  "workers": 1,
+  "elapsed_s_this_session": 0.3,
+  "stopped_early": false,
+  "finished_at": "2026-10-07T03:29:25+00:00"
+}

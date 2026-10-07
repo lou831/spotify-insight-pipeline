@@ -1,0 +1,10 @@
+{"review_id": "32fb340f-4f9f-4551-8dae-755221e58d6a", "verify_config": "claude-haiku-4-5+enrich_v1+s1+nothink", "valid": true, "topic": "access", "intent": "complaint", "sev": 4, "sent": -0.7}
+{"review_id": "9d851b7f-a738-449b-a841-de8076f13276", "verify_config": "claude-haiku-4-5+enrich_v1+s1+nothink", "valid": true, "topic": "other", "intent": "praise", "sev": 1, "sent": 0.8}
+{"review_id": "9e3a706c-f502-4664-a23f-33f3480eca64", "verify_config": "claude-haiku-4-5+enrich_v1+s1+nothink", "valid": true, "topic": "other", "intent": "unclear", "sev": 1, "sent": -0.6}
+{"review_id": "89a8e180-7846-4421-a2b6-fa7787e9d0d2", "verify_config": "claude-haiku-4-5+enrich_v1+s1+nothink", "valid": true, "topic": "other", "intent": "complaint", "sev": 2, "sent": -0.5}
+{"review_id": "4aee0d75-6901-426e-b0f7-11d042ccc73e", "verify_config": "claude-haiku-4-5+enrich_v1+s1+nothink", "valid": true, "topic": "other", "intent": "praise", "sev": 1, "sent": 0.7}
+{"review_id": "0658feaa-5bec-416e-b6b0-3de2a4c14580", "verify_config": "claude-haiku-4-5+enrich_v1+s1+nothink", "valid": true, "topic": "catalog", "intent": "complaint", "sev": 3, "sent": 0.3}
+{"review_id": "23de7958-ccb0-4356-bc12-094935e6857d", "verify_config": "claude-haiku-4-5+enrich_v1+s1+nothink", "valid": true, "topic": "other", "intent": "praise", "sev": 1, "sent": 0.9}
+{"review_id": "67b21b33-e6b9-4d1a-b874-86bc182b9ada", "verify_config": "claude-haiku-4-5+enrich_v1+s1+nothink", "valid": true, "topic": "other", "intent": "unclear", "sev": 1, "sent": 0}
+{"review_id": "5d4d3f47-4b3c-4be4-8f11-6cca41d27068", "verify_config": "claude-haiku-4-5+enrich_v1+s1+nothink", "valid": true, "topic": "other", "intent": "praise", "sev": 1, "sent": 0.7}
+{"review_id": "aeee488a-2077-489d-8914-1e01d5f7672f", "verify_config": "claude-haiku-4-5+enrich_v1+s1+nothink", "valid": true, "topic": "other", "intent": "praise", "sev": 1, "sent": 0.9}

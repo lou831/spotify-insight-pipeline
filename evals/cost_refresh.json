@@ -1,0 +1,55 @@
+{
+  "purpose": "refresh full-run Jev estimate from measured checkpoints (COST_CALCULATOR.md step: refresh at 500 and 10,000)",
+  "price_usd_per_mtok": 0.042,
+  "runs": [
+    {
+      "run": "pilot100",
+      "rows": 100,
+      "distinct_texts": 100,
+      "calls": 2,
+      "failed_calls": 0,
+      "retry_rate": 0.0,
+      "tokens_per_text": 278.2,
+      "measured_usd": 0.001168,
+      "wall_s": 0.0,
+      "workers": 1,
+      "full_base_usd": 5.66,
+      "full_conservative_usd": 7.43,
+      "full_no_reuse_usd": 7.72,
+      "full_minutes_at_same_throughput": 0.0
+    },
+    {
+      "run": "jev_dev500",
+      "rows": 500,
+      "distinct_texts": 479,
+      "calls": 10,
+      "failed_calls": 0,
+      "retry_rate": 0.0,
+      "tokens_per_text": 278.7,
+      "measured_usd": 0.005607,
+      "wall_s": 1.2,
+      "workers": 2,
+      "full_base_usd": 5.67,
+      "full_conservative_usd": 7.44,
+      "full_no_reuse_usd": 7.73,
+      "full_minutes_at_same_throughput": 20.2
+    },
+    {
+      "run": "jev_10k",
+      "rows": 10000,
+      "distinct_texts": 8448,
+      "calls": 169,
+      "failed_calls": 0,
+      "retry_rate": 0.0,
+      "tokens_per_text": 278.5,
+      "measured_usd": 0.098808,
+      "wall_s": 10.2,
+      "workers": 4,
+      "full_base_usd": 5.66,
+      "full_conservative_usd": 7.43,
+      "full_no_reuse_usd": 7.73,
+      "full_minutes_at_same_throughput": 9.7
+    }
+  ],
+  "decision": "Budget cap for full run: $8 Jev (base ~$5.7). Workers 4 (10K run: 169 requests in 10 s, no rate-limit errors)."
+}

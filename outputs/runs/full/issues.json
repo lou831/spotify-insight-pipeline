@@ -1,0 +1,355 @@
+{
+  "grouping": "rules_v1, one issue per complaint",
+  "issues": [
+    {
+      "issue_id": "other.general_dissatisfaction",
+      "topic": "other",
+      "rule": "general_dissatisfaction",
+      "member_count": 76926,
+      "name": "General app dissatisfaction",
+      "summary": "Users express broad unhappiness with the app without specific complaint details.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "7d0a1f5a135a91e8"
+    },
+    {
+      "issue_id": "usability.too_many_ads",
+      "topic": "usability",
+      "rule": "too_many_ads",
+      "member_count": 35508,
+      "name": "Excessive ad frequency",
+      "summary": "Free users experience high frequency of ads that interrupt listening and frustrate their experience.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "20dfdb2d53cc6fe2"
+    },
+    {
+      "issue_id": "billing.subscription_plan_issues",
+      "topic": "billing",
+      "rule": "subscription_plan_issues",
+      "member_count": 22445,
+      "name": "Premium paywall restrictions",
+      "summary": "Users feel forced to purchase premium as free features are increasingly moved behind paywalls.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "1f01614cc0987dc1"
+    },
+    {
+      "issue_id": "other.bad_update_general",
+      "topic": "other",
+      "rule": "bad_update_general",
+      "member_count": 16324,
+      "name": "App degraded by updates",
+      "summary": "Recent app updates have worsened functionality and overall user experience.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "7ea6adeb51dbcb49"
+    },
+    {
+      "issue_id": "usability.general",
+      "topic": "usability",
+      "rule": "general",
+      "member_count": 15121,
+      "name": "General usability problems",
+      "summary": "Diverse usability issues including removed features, app persistence, and inefficient behaviors.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "16a9efde5c48a90f"
+    },
+    {
+      "issue_id": "playback.general",
+      "topic": "playback",
+      "rule": "general",
+      "member_count": 14990,
+      "name": "Playback issues overall",
+      "summary": "Users report problems with songs and podcasts not playing, failing to load, or not responding to user controls.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "f08f1c618b7b20a0"
+    },
+    {
+      "issue_id": "billing.premium_locked_controls",
+      "topic": "billing",
+      "rule": "premium_locked_controls",
+      "member_count": 11036,
+      "name": "Playback controls locked behind premium",
+      "summary": "Basic playback controls like skip, repeat, and song selection require premium subscription.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "0ac1583a44ad99c7"
+    },
+    {
+      "issue_id": "usability.playlist_queue_management",
+      "topic": "usability",
+      "rule": "playlist_queue_management",
+      "member_count": 8618,
+      "name": "Playlist and queue functionality broken",
+      "summary": "Users cannot properly manage playlists, queue songs, or play specific tracks in desired order.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "ae40a3d9f4642c6c"
+    },
+    {
+      "issue_id": "billing.general",
+      "topic": "billing",
+      "rule": "general",
+      "member_count": 8285,
+      "name": "Billing and feature restrictions",
+      "summary": "Features have been restricted to paid users or removed entirely in recent updates.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "b70071b9058dc307"
+    },
+    {
+      "issue_id": "usability.forced_shuffle",
+      "topic": "usability",
+      "rule": "forced_shuffle",
+      "member_count": 7867,
+      "name": "Forced shuffle on free version",
+      "summary": "Free users stuck with mandatory shuffle mode and cannot listen to songs in chosen order.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "54959fed81d76736"
+    },
+    {
+      "issue_id": "playback.playback_stops",
+      "topic": "playback",
+      "rule": "playback_stops",
+      "member_count": 7587,
+      "name": "Playback interruptions and stops",
+      "summary": "Music stops unexpectedly during playback or after a few seconds without user control.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "a4f1192bdde06bd0"
+    },
+    {
+      "issue_id": "billing.price_too_high",
+      "topic": "billing",
+      "rule": "price_too_high",
+      "member_count": 6569,
+      "name": "Premium pricing too expensive",
+      "summary": "Users consider subscription and pricing unaffordable compared to competitors.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "48703756493a1bf6"
+    },
+    {
+      "issue_id": "access.login_failure",
+      "topic": "access",
+      "rule": "login_failure",
+      "member_count": 6539,
+      "name": "Login and account access issues",
+      "summary": "Users unable to log in or create accounts, sometimes persisting for extended periods.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "ddd0fb13e6aea84d"
+    },
+    {
+      "issue_id": "usability.ui_update_changes",
+      "topic": "usability",
+      "rule": "ui_update_changes",
+      "member_count": 6217,
+      "name": "UI update removed user controls",
+      "summary": "Recent UI changes prevent users from selecting specific songs or controlling playback as before.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "a48068b8bdc3f0f2"
+    },
+    {
+      "issue_id": "playback.crashes_wont_open",
+      "topic": "playback",
+      "rule": "crashes_wont_open",
+      "member_count": 5442,
+      "name": "App crashes when playing songs",
+      "summary": "App crashes frequently when attempting to play songs, search, or open podcasts.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "340b351fcee048f9"
+    },
+    {
+      "issue_id": "catalog.general",
+      "topic": "catalog",
+      "rule": "general",
+      "member_count": 4475,
+      "name": "general",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "playback.connectivity",
+      "topic": "playback",
+      "rule": "connectivity",
+      "member_count": 4255,
+      "name": "connectivity",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "usability.home_screen_redesign",
+      "topic": "usability",
+      "rule": "home_screen_redesign",
+      "member_count": 3271,
+      "name": "home screen redesign",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "usability.skip_limits",
+      "topic": "usability",
+      "rule": "skip_limits",
+      "member_count": 3190,
+      "name": "skip limits",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "catalog.lyrics",
+      "topic": "catalog",
+      "rule": "lyrics",
+      "member_count": 3189,
+      "name": "lyrics",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "catalog.missing_or_removed_songs",
+      "topic": "catalog",
+      "rule": "missing_or_removed_songs",
+      "member_count": 3066,
+      "name": "missing or removed songs",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "downloads.download_fails",
+      "topic": "downloads",
+      "rule": "download_fails",
+      "member_count": 2759,
+      "name": "download fails",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "access.general",
+      "topic": "access",
+      "rule": "general",
+      "member_count": 2069,
+      "name": "general",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "downloads.offline_mode_fails",
+      "topic": "downloads",
+      "rule": "offline_mode_fails",
+      "member_count": 1572,
+      "name": "offline mode fails",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "billing.charges_refunds",
+      "topic": "billing",
+      "rule": "charges_refunds",
+      "member_count": 1460,
+      "name": "charges refunds",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "playback.audio_quality",
+      "topic": "playback",
+      "rule": "audio_quality",
+      "member_count": 1451,
+      "name": "audio quality",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "catalog.recommendations",
+      "topic": "catalog",
+      "rule": "recommendations",
+      "member_count": 1072,
+      "name": "recommendations",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "access.account_problem",
+      "topic": "access",
+      "rule": "account_problem",
+      "member_count": 954,
+      "name": "account problem",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "downloads.downloads_disappear",
+      "topic": "downloads",
+      "rule": "downloads_disappear",
+      "member_count": 893,
+      "name": "downloads disappear",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "catalog.search",
+      "topic": "catalog",
+      "rule": "search",
+      "member_count": 785,
+      "name": "search",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "support.support_unhelpful",
+      "topic": "support",
+      "rule": "support_unhelpful",
+      "member_count": 759,
+      "name": "support unhelpful",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "downloads.general",
+      "topic": "downloads",
+      "rule": "general",
+      "member_count": 473,
+      "name": "general",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "access.password_reset",
+      "topic": "access",
+      "rule": "password_reset",
+      "member_count": 331,
+      "name": "password reset",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "playback.battery_storage",
+      "topic": "playback",
+      "rule": "battery_storage",
+      "member_count": 311,
+      "name": "battery storage",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "catalog.podcasts_audiobooks",
+      "topic": "catalog",
+      "rule": "podcasts_audiobooks",
+      "member_count": 283,
+      "name": "podcasts audiobooks",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    }
+  ]
+}

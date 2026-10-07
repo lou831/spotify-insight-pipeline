@@ -1,0 +1,327 @@
+{
+  "source_rows": 100,
+  "quarantine_reason": "empty_review_text (no text to classify)",
+  "data_window": "app-store reviews dated 2022-05-17 to 2023-11-15 (historical snapshot, not current Spotify state)",
+  "scope": {
+    "records_completed": 100,
+    "records_quarantined": 0,
+    "issues_total": 22
+  },
+  "topic_totals_note": "sum over all issues in each topic; not claim-checked by the grader",
+  "topic_totals": {
+    "usability": {
+      "complaints": 15,
+      "severity_sum": 39,
+      "mean_severity": 2.6
+    },
+    "other": {
+      "complaints": 13,
+      "severity_sum": 28,
+      "mean_severity": 2.15
+    },
+    "playback": {
+      "complaints": 7,
+      "severity_sum": 25,
+      "mean_severity": 3.57
+    },
+    "billing": {
+      "complaints": 5,
+      "severity_sum": 14,
+      "mean_severity": 2.8
+    },
+    "catalog": {
+      "complaints": 4,
+      "severity_sum": 11,
+      "mean_severity": 2.75
+    },
+    "access": {
+      "complaints": 2,
+      "severity_sum": 8,
+      "mean_severity": 4.0
+    },
+    "downloads": {
+      "complaints": 2,
+      "severity_sum": 7,
+      "mean_severity": 3.5
+    },
+    "support": {
+      "complaints": 1,
+      "severity_sum": 2,
+      "mean_severity": 2.0
+    }
+  },
+  "top_issues": [
+    {
+      "rank": 1,
+      "issue_id": "other.general_dissatisfaction",
+      "name": "General Dissatisfaction",
+      "summary": "Customers express overall disappointment with the app without citing specific functional problems.",
+      "complaint_count": {
+        "value": "10",
+        "claim_id": "C001"
+      },
+      "severity_sum": {
+        "value": "20",
+        "claim_id": "C002"
+      },
+      "mean_severity": {
+        "value": "2.000000",
+        "claim_id": "C003"
+      },
+      "priority_score": {
+        "value": "20",
+        "claim_id": "C004"
+      },
+      "evidence": [
+        {
+          "review_id": "b92a7381-b5cd-4c77-9176-e5c4b4818c8a",
+          "quote": "You deserve 0 star"
+        },
+        {
+          "review_id": "c1ab120a-f91f-4ee3-87f5-66f352e2d47f",
+          "quote": "It was a good app ."
+        },
+        {
+          "review_id": "486d1d7a-d6f6-41ea-81ad-ed875452729c",
+          "quote": "Vary bad experience."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "issue_id": "usability.too_many_ads",
+      "name": "Excessive Ad Frequency",
+      "summary": "Users report that advertisements play too frequently and intrusively throughout regular app usage.",
+      "complaint_count": {
+        "value": "7",
+        "claim_id": "C005"
+      },
+      "severity_sum": {
+        "value": "16",
+        "claim_id": "C006"
+      },
+      "mean_severity": {
+        "value": "2.285714",
+        "claim_id": "C007"
+      },
+      "priority_score": {
+        "value": "16",
+        "claim_id": "C008"
+      },
+      "evidence": [
+        {
+          "review_id": "035213ba-b1b9-411c-b028-70296e5f0e73",
+          "quote": "I m using this app from 5 to 6 year but now m uninstald this app cz his premium adds are everywhere now ."
+        },
+        {
+          "review_id": "ab67a772-c3b7-42ba-9b80-8d21d3857018",
+          "quote": "The ads are so loud :'("
+        },
+        {
+          "review_id": "c2738a4f-e57c-46bc-a4ad-8ec5a4b5d5cd",
+          "quote": "Soo trash wayy to many ads I don't want premium but too much ads"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "issue_id": "playback.general",
+      "name": "Playback Not Working",
+      "summary": "Audio does not play despite the app indicating music is selected or playing.",
+      "complaint_count": {
+        "value": "3",
+        "claim_id": "C009"
+      },
+      "severity_sum": {
+        "value": "11",
+        "claim_id": "C010"
+      },
+      "mean_severity": {
+        "value": "3.666667",
+        "claim_id": "C011"
+      },
+      "priority_score": {
+        "value": "11",
+        "claim_id": "C012"
+      },
+      "evidence": [
+        {
+          "review_id": "e16a4550-43e7-4ae1-b538-a65cc652c31b",
+          "quote": "Am very sad about the new spotfy update."
+        },
+        {
+          "review_id": "46ff0c74-5e86-4e5b-b4cd-36201aab0f9e",
+          "quote": "it says playing your Spotify playlist but do not play the songs"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "issue_id": "billing.premium_locked_controls",
+      "name": "Premium Paywall on Basic Controls",
+      "summary": "Core playback features like song selection and skipping are restricted to premium subscribers only.",
+      "complaint_count": {
+        "value": "3",
+        "claim_id": "C013"
+      },
+      "severity_sum": {
+        "value": "9",
+        "claim_id": "C014"
+      },
+      "mean_severity": {
+        "value": "3.000000",
+        "claim_id": "C015"
+      },
+      "priority_score": {
+        "value": "9",
+        "claim_id": "C016"
+      },
+      "evidence": [
+        {
+          "review_id": "d146397f-4a94-4980-be00-ae9212eca3a7",
+          "quote": "This was fine till the last update, now you can't even pick a certain song without Spotify premium, and now you can only skip 6 songs, like please just let the songs fit my mood!"
+        },
+        {
+          "review_id": "88439ec2-7c49-4c57-bedb-c5e098692aff",
+          "quote": "what's the point if we dont get to go back to the same song or skip songs.."
+        },
+        {
+          "review_id": "a3605554-5c3a-441d-836e-e9fdea83eb2e",
+          "quote": "The ability to skip a song or go to previous song has been removed from non subscribed users."
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "issue_id": "usability.ui_update_changes",
+      "name": "UI Redesign Removes Key Features",
+      "summary": "New interface updates eliminate established features and functionality users relied on.",
+      "complaint_count": {
+        "value": "3",
+        "claim_id": "C017"
+      },
+      "severity_sum": {
+        "value": "9",
+        "claim_id": "C018"
+      },
+      "mean_severity": {
+        "value": "3.000000",
+        "claim_id": "C019"
+      },
+      "priority_score": {
+        "value": "9",
+        "claim_id": "C020"
+      },
+      "evidence": [
+        {
+          "review_id": "d455c11e-c530-4c03-a395-38f5a5cdb8d3",
+          "quote": "Spotify constantly rolls out new major UX updates without any use of their beta program."
+        },
+        {
+          "review_id": "9e5f9745-f8be-48d3-b9de-4d118507d94a",
+          "quote": "WHAT IN THE WORLD IS THIS UPDATE?"
+        },
+        {
+          "review_id": "7084ced1-0428-4093-9328-442f74719b4f",
+          "quote": "I am using Spotify from past two years From last update they removed basic features of music player"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "issue_id": "other.bad_update_general",
+      "name": "Negative Overall Update Impact",
+      "summary": "Recent app updates have made the experience worse, disappointing previously satisfied users.",
+      "complaint_count": {
+        "value": "3",
+        "claim_id": "C021"
+      },
+      "severity_sum": {
+        "value": "8",
+        "claim_id": "C022"
+      },
+      "mean_severity": {
+        "value": "2.666667",
+        "claim_id": "C023"
+      },
+      "priority_score": {
+        "value": "8",
+        "claim_id": "C024"
+      },
+      "evidence": [
+        {
+          "review_id": "b47c203f-366e-4409-922d-cd52aa8bbef6",
+          "quote": "Used to love the app but recent update is very disappointing bye Spotify"
+        },
+        {
+          "review_id": "ca16e65d-d2ff-4453-a495-b8c422809330",
+          "quote": "Recent update 👎"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "issue_id": "playback.crashes_wont_open",
+      "name": "App Crashes or Won't Launch",
+      "summary": "The app crashes, freezes on startup, or becomes completely unopenable after recent updates.",
+      "complaint_count": {
+        "value": "2",
+        "claim_id": "C025"
+      },
+      "severity_sum": {
+        "value": "8",
+        "claim_id": "C026"
+      },
+      "mean_severity": {
+        "value": "4.000000",
+        "claim_id": "C027"
+      },
+      "priority_score": {
+        "value": "8",
+        "claim_id": "C028"
+      },
+      "evidence": [
+        {
+          "review_id": "55cc3abf-c295-4591-8c3a-78085cfdefaa",
+          "quote": "The latest update has caused my app to crash I cant open the app please fix."
+        },
+        {
+          "review_id": "66a29b3c-c14d-440e-b722-b23e0c99ae82",
+          "quote": "App is stuck on loading/logo screen"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "issue_id": "catalog.lyrics",
+      "name": "Inconsistent Lyrics Availability",
+      "summary": "Lyrics display inconsistently across songs, appearing for some but missing for others.",
+      "complaint_count": {
+        "value": "2",
+        "claim_id": "C029"
+      },
+      "severity_sum": {
+        "value": "6",
+        "claim_id": "C030"
+      },
+      "mean_severity": {
+        "value": "3.000000",
+        "claim_id": "C031"
+      },
+      "priority_score": {
+        "value": "6",
+        "claim_id": "C032"
+      },
+      "evidence": [
+        {
+          "review_id": "47becad0-8ae5-4a10-9731-fde8f2091862",
+          "quote": "It is good but there is a problem that in some songs there is no lyrics and in some songs there is lyrics it's so confusing."
+        },
+        {
+          "review_id": "e0127547-4edd-44a0-8d5e-e8398bc07086",
+          "quote": "sometime the lyrics don't show"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "grouping": "rules_v1, one issue per complaint",
+  "issues": [
+    {
+      "issue_id": "other.general_dissatisfaction",
+      "topic": "other",
+      "rule": "general_dissatisfaction",
+      "member_count": 10,
+      "name": "General Dissatisfaction",
+      "summary": "Customers express overall disappointment with the app without citing specific functional problems.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "f686d7ea477a3412"
+    },
+    {
+      "issue_id": "usability.too_many_ads",
+      "topic": "usability",
+      "rule": "too_many_ads",
+      "member_count": 7,
+      "name": "Excessive Ad Frequency",
+      "summary": "Users report that advertisements play too frequently and intrusively throughout regular app usage.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "e74e7829fa32bc8f"
+    },
+    {
+      "issue_id": "billing.premium_locked_controls",
+      "topic": "billing",
+      "rule": "premium_locked_controls",
+      "member_count": 3,
+      "name": "Premium Paywall on Basic Controls",
+      "summary": "Core playback features like song selection and skipping are restricted to premium subscribers only.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "3d71223edf76752b"
+    },
+    {
+      "issue_id": "other.bad_update_general",
+      "topic": "other",
+      "rule": "bad_update_general",
+      "member_count": 3,
+      "name": "Negative Overall Update Impact",
+      "summary": "Recent app updates have made the experience worse, disappointing previously satisfied users.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "19722b793049597f"
+    },
+    {
+      "issue_id": "playback.general",
+      "topic": "playback",
+      "rule": "general",
+      "member_count": 3,
+      "name": "Playback Not Working",
+      "summary": "Audio does not play despite the app indicating music is selected or playing.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "7f4bc55481466a28"
+    },
+    {
+      "issue_id": "usability.ui_update_changes",
+      "topic": "usability",
+      "rule": "ui_update_changes",
+      "member_count": 3,
+      "name": "UI Redesign Removes Key Features",
+      "summary": "New interface updates eliminate established features and functionality users relied on.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "6db8d58cb1e945a4"
+    },
+    {
+      "issue_id": "catalog.general",
+      "topic": "catalog",
+      "rule": "general",
+      "member_count": 2,
+      "name": "General Catalog Issue",
+      "summary": "General feedback related to music catalog or song availability.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "af4c72e35bd40774"
+    },
+    {
+      "issue_id": "catalog.lyrics",
+      "topic": "catalog",
+      "rule": "lyrics",
+      "member_count": 2,
+      "name": "Inconsistent Lyrics Availability",
+      "summary": "Lyrics display inconsistently across songs, appearing for some but missing for others.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "2ac0911b41d4fb66"
+    },
+    {
+      "issue_id": "playback.crashes_wont_open",
+      "topic": "playback",
+      "rule": "crashes_wont_open",
+      "member_count": 2,
+      "name": "App Crashes or Won't Launch",
+      "summary": "The app crashes, freezes on startup, or becomes completely unopenable after recent updates.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "c00eb47a37a612f0"
+    },
+    {
+      "issue_id": "usability.skip_limits",
+      "topic": "usability",
+      "rule": "skip_limits",
+      "member_count": 2,
+      "name": "Restricted Skip Functionality",
+      "summary": "Free users can only skip a limited number of songs per session, limiting playlist control.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "a55c2fcc5a292bc2"
+    },
+    {
+      "issue_id": "access.account_problem",
+      "topic": "access",
+      "rule": "account_problem",
+      "member_count": 1,
+      "name": "account problem",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "access.password_reset",
+      "topic": "access",
+      "rule": "password_reset",
+      "member_count": 1,
+      "name": "password reset",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "billing.general",
+      "topic": "billing",
+      "rule": "general",
+      "member_count": 1,
+      "name": "general",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "billing.price_too_high",
+      "topic": "billing",
+      "rule": "price_too_high",
+      "member_count": 1,
+      "name": "Premium Pricing Too Expensive",
+      "summary": "Subscription costs are prohibitively high and the value proposition is poor.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "39484487a0855f9a"
+    },
+    {
+      "issue_id": "downloads.download_fails",
+      "topic": "downloads",
+      "rule": "download_fails",
+      "member_count": 1,
+      "name": "Background Download Freezes",
+      "summary": "Downloaded songs get stuck in the queue unless the app is actively opened, preventing offline listening.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "d7992a033f7ac6f9"
+    },
+    {
+      "issue_id": "downloads.offline_mode_fails",
+      "topic": "downloads",
+      "rule": "offline_mode_fails",
+      "member_count": 1,
+      "name": "offline mode fails",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "playback.connectivity",
+      "topic": "playback",
+      "rule": "connectivity",
+      "member_count": 1,
+      "name": "WiFi Connection Problems",
+      "summary": "The app fails to connect to the internet over WiFi despite connectivity being available.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "3743858ceb135f69"
+    },
+    {
+      "issue_id": "playback.playback_stops",
+      "topic": "playback",
+      "rule": "playback_stops",
+      "member_count": 1,
+      "name": "playback stops",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "support.support_unhelpful",
+      "topic": "support",
+      "rule": "support_unhelpful",
+      "member_count": 1,
+      "name": "support unhelpful",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    },
+    {
+      "issue_id": "usability.forced_shuffle",
+      "topic": "usability",
+      "rule": "forced_shuffle",
+      "member_count": 1,
+      "name": "Forced Shuffle on Playlists",
+      "summary": "Users cannot disable shuffle mode and cannot listen to playlists in their chosen order.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "9e91093734f289c8"
+    },
+    {
+      "issue_id": "usability.home_screen_redesign",
+      "topic": "usability",
+      "rule": "home_screen_redesign",
+      "member_count": 1,
+      "name": "Home Screen Update Issues",
+      "summary": "The redesigned home screen interface is difficult to use or unintuitive.",
+      "named_by": "claude-haiku-4-5",
+      "name_key": "141cacab20fa2ee4"
+    },
+    {
+      "issue_id": "usability.playlist_queue_management",
+      "topic": "usability",
+      "rule": "playlist_queue_management",
+      "member_count": 1,
+      "name": "playlist queue management",
+      "summary": "",
+      "named_by": "code (rule name)",
+      "name_key": null
+    }
+  ]
+}

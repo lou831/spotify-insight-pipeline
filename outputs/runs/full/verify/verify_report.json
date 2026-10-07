@@ -1,0 +1,22 @@
+{
+  "enrich_run": "full",
+  "sample_seed": "verify-v1",
+  "sample_size": 2000,
+  "verifier_valid": 2000,
+  "verifier_model": "claude-haiku-4-5 (no thinking)",
+  "verifier_saw_enricher_labels": false,
+  "agreement": {
+    "topic": 0.832,
+    "intent": 0.909,
+    "severity": 0.842
+  },
+  "disagreements": 681,
+  "planted_error_test": {
+    "review_id": "f14bec35-4869-4e8e-8621-972df730f763",
+    "original_topic": "other",
+    "planted_topic": "access",
+    "verifier_topic": "other",
+    "detected": true,
+    "note": "test copy only; real records untouched"
+  }
+}

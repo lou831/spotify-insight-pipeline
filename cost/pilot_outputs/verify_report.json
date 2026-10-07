@@ -1,0 +1,22 @@
+{
+  "enrich_run": "pilot100",
+  "sample_seed": "verify-v1",
+  "sample_size": 10,
+  "verifier_valid": 10,
+  "verifier_model": "claude-haiku-4-5 (no thinking)",
+  "verifier_saw_enricher_labels": false,
+  "agreement": {
+    "topic": 1.0,
+    "intent": 0.9,
+    "severity": 0.9
+  },
+  "disagreements": 2,
+  "planted_error_test": {
+    "review_id": "32fb340f-4f9f-4551-8dae-755221e58d6a",
+    "original_topic": "access",
+    "planted_topic": "usability",
+    "verifier_topic": "access",
+    "detected": true,
+    "note": "test copy only; real records untouched"
+  }
+}

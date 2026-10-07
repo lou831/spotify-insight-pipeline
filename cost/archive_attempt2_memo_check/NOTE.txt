@@ -1,0 +1,1 @@
+Second pilot attempt: all stages ran; memo check failed (model computed its own averages, mentioned a year) and warm run re-called memo because failed memos were not cached. Fixed memo prompt + input-keyed memo cache; pilot rerun from scratch.

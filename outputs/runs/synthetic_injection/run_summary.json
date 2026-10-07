@@ -1,0 +1,16 @@
+{
+  "run": "synthetic_injection",
+  "input": "evals/synthetic_tests.csv",
+  "label_config": "jev-1.13.0+jev_v3+s1",
+  "rows": 2,
+  "completed": 2,
+  "quarantined": 0,
+  "pending": 0,
+  "cache_reused_this_session": 0,
+  "total_spent_usd": 6.3e-05,
+  "spend_cap_usd": 0.01,
+  "workers": 1,
+  "elapsed_s_this_session": 0.1,
+  "stopped_early": false,
+  "finished_at": "2026-10-07T03:29:26+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "test": "rerun group+rank+memo from saved records (no enrichment)",
+  "ranking_sha256_before": "aa9318177e398e8480543e8f4416583366ea16cc9827c489692ed88b79ed42b3",
+  "ranking_sha256_after": "aa9318177e398e8480543e8f4416583366ea16cc9827c489692ed88b79ed42b3",
+  "membership_sha256_before": "5bbc3a135c1a2b519b294d1231e575b86e71c95d42dd248a18a90109057e53a4",
+  "membership_sha256_after": "5bbc3a135c1a2b519b294d1231e575b86e71c95d42dd248a18a90109057e53a4",
+  "identical": true,
+  "new_model_calls": 0
+}

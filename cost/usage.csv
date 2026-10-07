@@ -1,0 +1,11 @@
+run_id,request_id,stage,role,attempt,outcome,provider,model,billing_item,units,usd_per_unit,billing_mode,metered_usd,api_equivalent_usd
+pilot_cold_20261007T044217Z,jev-1343ae7b-6027-4284-bb45-971d5419188f,classify,enrich,1,succeeded,typesafe,jev-1.13.0,input_tokens,13877,4.2000000000000006e-08,metered_api,0.0005828340,0.0005828340
+pilot_cold_20261007T044217Z,jev-1343ae7b-6027-4284-bb45-971d5419188f,classify,enrich,1,succeeded,typesafe,jev-1.13.0,output_tokens,10235,0.0,metered_api,0.0000000000,0.0000000000
+pilot_cold_20261007T044217Z,jev-b8063f21-a107-4839-a432-8cc7d5f24b91,classify,enrich,1,succeeded,typesafe,jev-1.13.0,input_tokens,13944,4.2000000000000006e-08,metered_api,0.0005856480,0.0005856480
+pilot_cold_20261007T044217Z,jev-b8063f21-a107-4839-a432-8cc7d5f24b91,classify,enrich,1,succeeded,typesafe,jev-1.13.0,output_tokens,10246,0.0,metered_api,0.0000000000,0.0000000000
+pilot_cold_20261007T044217Z,cli-02f27e63-8456-443d-9f05-6b1e467f7152,verify,verify,1,succeeded,anthropic,claude-haiku-4-5,input_tokens,2481,1e-06,subscription,,0.0024810000
+pilot_cold_20261007T044217Z,cli-02f27e63-8456-443d-9f05-6b1e467f7152,verify,verify,1,succeeded,anthropic,claude-haiku-4-5,output_tokens,807,5e-06,subscription,,0.0040350000
+pilot_cold_20261007T044217Z,cli-b87e194a-c7a1-49fc-adc0-c364a4ea8592,group,group,1,succeeded,anthropic,claude-haiku-4-5,input_tokens,3218,1e-06,subscription,,0.0032180000
+pilot_cold_20261007T044217Z,cli-b87e194a-c7a1-49fc-adc0-c364a4ea8592,group,group,1,succeeded,anthropic,claude-haiku-4-5,output_tokens,907,5e-06,subscription,,0.0045350000
+pilot_cold_20261007T044217Z,cli-fd94d7b0-f1c0-4399-b443-7949f564e474,memo,memo,1,succeeded,anthropic,claude-haiku-4-5,input_tokens,4010,1e-06,subscription,,0.0040100000
+pilot_cold_20261007T044217Z,cli-fd94d7b0-f1c0-4399-b443-7949f564e474,memo,memo,1,succeeded,anthropic,claude-haiku-4-5,output_tokens,1012,5e-06,subscription,,0.0050600000

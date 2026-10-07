@@ -1,0 +1,22 @@
+{
+  "enrich_run": "synthetic_injection",
+  "sample_seed": "verify-v1",
+  "sample_size": 2,
+  "verifier_valid": 2,
+  "verifier_model": "claude-haiku-4-5 (no thinking)",
+  "verifier_saw_enricher_labels": false,
+  "agreement": {
+    "topic": 1.0,
+    "intent": 1.0,
+    "severity": 1.0
+  },
+  "disagreements": 0,
+  "planted_error_test": {
+    "review_id": "SYNTHETIC-INJECT-002",
+    "original_topic": "other",
+    "planted_topic": "access",
+    "verifier_topic": "other",
+    "detected": true,
+    "note": "test copy only; real records untouched"
+  }
+}

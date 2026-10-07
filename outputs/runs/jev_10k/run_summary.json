@@ -1,0 +1,16 @@
+{
+  "run": "jev_10k",
+  "input": "analysis_10000.csv",
+  "label_config": "jev-1.13.0+jev_v3+s1",
+  "rows": 10000,
+  "completed": 10000,
+  "quarantined": 0,
+  "pending": 0,
+  "cache_reused_this_session": 1552,
+  "total_spent_usd": 0.098808,
+  "spend_cap_usd": 0.4,
+  "workers": 4,
+  "elapsed_s_this_session": 10.2,
+  "stopped_early": false,
+  "finished_at": "2026-10-07T03:33:42+00:00"
+}
